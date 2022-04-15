@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-image: url("https://snipp.ru/uploads/contents/bg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: "Gill Sans", sans-serif;
+            justify-content: space-around;
+        }
+
+        h1,
+        h6 {
+            color: white;
+        }
+
+        label {
+            border: 1px solid white;
+            width: 30%;
+        }
+
+        section {
+            width: 30%;
+        }
+
+        aside {
+            width: 60%;
+            float: right;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(70, 102, 129);
+        }
+
+        #myForm {
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #myButton {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h3><a href="#audioSection" style="color: white">Go to listen Audio Effects <span>&#8681</span></a></h3>
+    <main>
+        <aside>
+            <h1 style="font-size: 56px">Register in our site to discover the world.</h1>
+            <p>
+                <b>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, doloribus ut reiciendis itaque ex
+                    ducimus distinctio doloremque sint porro aliquid harum quidem reprehenderit cupiditate fugiat iure
+                    molestias? Porro architecto quibusdam dolorum optio autem unde tenetur neque minima, laborum in
+                    .
+                </b>
+            </p>
+            <video src="./Videos/video.mp4" width="420" height="280px" poster="https://www.pngkit.com/png/detail/65-654028_videos-multimedia-social-networks-social-light-blue-play.png" preload="none" controls>
+        </aside>
+        <section>
+            <fieldset>
+                <form action="">
+                    <h1>Sign Up</h1>
+                    <p>It's quick and easy.</p>
+
+                    <hr>
+
+                    <input type="text" placeholder="First Name" size="20">
+                    <input type="text" placeholder="Last Name" size="21">
+
+                    <br><br>
+
+                    <input type="email" placeholder="example@gmail.com" style="width: 99%" required>
+
+                    <br><br>
+
+                    <input type="email" placeholder="example@outlook.live.com" style="width: 99%" required>
+
+                    <br><br>
+
+                    <input type="password" placeholder="Password" style="width: 99%">
+
+                    <h5>Birthday <span
+                            title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, distinctio.">&#9432</span>
+                    </h5>
+                    <input type="date" style="width: 99%">
+                    <h5>Gender <span
+                            title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, distinctio.">&#9432</span>
+                    </h5>
+                    <div id="myForm">
+                        <label for="gender">
+                            Male
+                            <input type="radio" name="gender">
+                        </label>
+
+                        <label for="gender">
+                            Female
+                            <input type="radio" name="gender">
+                        </label>
+
+                        <label for="gender">
+                            Custom
+                            <input type="radio" name="gender">
+                        </label>
+                    </div>
+
+                    <h6>
+                        By clicking Sign Up, you agree to our <a href="">Terms, Data Policy</a> and <a href="">Cookies
+                            Policy</a>. You may receive SMS Notifications from us and can opt out any time.
+                    </h6>
+                    <input id="myButton" type="submit" value="Sign Up">
+                </form>
+            </fieldset>
+        </section>
+
+        <br><br>
+
+        <section id="audioSection">
+            <h1>Audio effects</h1>
+            <figure>
+                <figcaption>Game Show Suspense Waiting</figcaption>
+                <audio src="./Audios/mixkit-game-show-suspense-waiting-667.wav" controls preload="metadata">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </figure>
+
+            <figure>
+                <figcaption>Stadium Crows Applause</figcaption>
+                <audio src="./Audios/mixkit-stadium-crowd-light-applause-362.wav" controls preload="metadata">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </figure>
+
+            <figure>
+                <figcaption>Tick Tock clock timer</figcaption>
+                <audio src="./Audios/mixkit-tick-tock-clock-timer-1045.wav" controls autoplay preload="metadata">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </figure>
+
+            <figure>
+                <figcaption>Telephone Ringtone</figcaption>
+                <audio src="./Audios/mixkit-vintage-telephone-ringtone-1356.wav" controls loop preload="metadata">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <h1>Follow us in Social Media</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nemo, vero ea dolorum ab pariatur dicta facilis
+        vel amet? Deleniti ex consectetur optio consequatur dolor rem assumenda esse aut ea non nemo eos, voluptas,
+        corrupti enim. Beatae accusantium culpa cum ab? Sint, accusantium blanditiis excepturi delectus dolores
+        accusamus alias. Suscipit repudiandae eos praesentium beatae possimus rerum? Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Exercitationem possimus suscipit laudantium labore esse, nulla officiis voluptates
+        sapiente laborum numquam fugit soluta repellat iste enim perferendis quod quia aspernatur eius magnam. Culpa
+        sunt placeat, et vero pariatur saepe. Vero, aliquam quae similique hic esse earum aspernatur quia, quos laborum
+        labore consequatur nesciunt exercitationem dolor sint minima?
+    </footer>
+</body>
+
+</html>
