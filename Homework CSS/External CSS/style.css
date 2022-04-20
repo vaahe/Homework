@@ -1,0 +1,90 @@
+header {
+    background-color: rgb(100,145,241);
+    text-align: center;
+    color: rgba(24, 22, 22, 0.9);
+}
+
+header>h1 {
+    font-size: 40px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>ul>li>a:link {
+    color: rgba(24, 22, 22, 0.9);
+    font-size: 22px;
+}
+
+nav>ul>li>a:hover {
+    color: #ffffff;
+    background-color: #124342;
+    text-decoration: none;
+}
+
+nav>ul>li {
+    list-style-type: none;
+}
+
+main>section {
+background-color: #1b1a1a;
+}
+
+#home{
+    color: #e5e900;
+}
+
+#about-us {
+    color: #db0c0c;
+}
+
+#services {
+    color: rgb(255, 255, 255);
+}
+
+#contact-us {
+    color: rgb(10, 255, 63);
+}
+
+form {
+    width: 40%;
+}
+
+footer {
+    background-color: #124342;
+}
+
+
+h2, h3 {
+    color: white;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section2>img {
+    width: 250px;
+}
+
+#section3 {
+    color: white;
+}
+
+#person {
+    width: 21%;
+    border: 1px solid white;
+}
+
+#person>img {
+    width: 280px;
+    height: 300px;
+}
+
+#person-container {
+    display: flex;
+    justify-content: space-between;
+}
