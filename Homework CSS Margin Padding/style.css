@@ -1,0 +1,169 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header {
+    background-color: rgb(113, 113, 114);
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 64px;
+    width: 64px;
+    min-width: 64px;
+    min-height: 64px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    padding: 20px;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(58, 59, 58);
+}
+
+main section img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+main h1 {
+    margin-top: 80px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product div {
+    width: 30%;
+    margin: 10px 0;
+    box-shadow: 1px 1px 5px 3px rgba(34, 60, 80, 0.2);
+}
+
+.product span {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product span p {
+    display: block;
+}
+
+section.product div span p {
+    padding: 0 15px 0 15px;
+}
+
+hr {
+    border: 2px solid rgb(113, 113, 114);
+    width: 20%;
+    display: inline-block;
+    margin: 0 0 50px 0;
+}
+
+.trending-now {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-now div {
+    box-shadow: 1px 1px 5px 3px rgba(34, 60, 80, 0.2);
+    width: 49%;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.sunny-day {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunny-day div {
+    width: 30%;
+    font-variant: small-caps;
+}
+
+.about-us {
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.about-us figure {
+    width: 30%;
+    float: right;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.about-us blockquote {
+    font-style: italic;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+
+.links a {
+    color: rgb(116, 112, 112);
+    display: block;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: 14px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+.links a:hover {
+    color: #fff;
+}
+
+.social-media {
+    color: #fff;
+    width: 30%;
+    margin: 100px 10px 0 0;
+}
+
+
+.social-media img {
+    padding: 0 10px;
+    margin: 10px 0 10px 30px;
+    width: 32px;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.info {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
