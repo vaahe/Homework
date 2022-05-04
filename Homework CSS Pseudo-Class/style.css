@@ -1,0 +1,151 @@
+section {
+    margin-bottom: 50px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(28, 192, 13);
+    text-align: center;
+    line-height: 50px;
+    margin: 1px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.first tr:nth-child(even) {
+    background-color: #62c31d;
+}
+
+.second div:nth-last-child(3) {
+    background-color: yellow;
+}
+
+.third *:nth-child(2n) {
+    background-color: red;
+}
+
+.fourth tr:nth-of-type(2n-1) {
+    background-color: aqua;
+}
+
+.fifth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth div:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.fifth div:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(119, 138, 138);
+    box-shadow: 1px 1px 20px 1px aqua;
+}
+
+.fifth div:nth-child(3) {
+    width: 100px;
+    height: 100px;
+    box-shadow: 20px 20px 1px 10px;
+}
+
+.fifth div:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    box-shadow: 3px 7px 50px 1px rgb(255, 25, 0);
+    border-radius: 50%;
+}
+
+.fifth div:nth-child(5) {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 5px 3px red;
+}
+
+.sixth h3:nth-child(1) {
+    text-shadow: 2px 2px 1px #b1ef07;
+}
+
+.sixth h3:nth-child(2) {
+    color: red;
+    text-shadow: 4px 4px 4px green;
+}
+
+.sixth h3:nth-child(3) {
+    color: blue;
+    text-shadow: 5px 5px 1px yellow;
+}
+
+.sixth h3:nth-child(4) {
+    color: white;
+    text-shadow: 1px 1px 5px red;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.circle:nth-child(2) {
+    display: none;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: dimgray;
+}
+
+.square:nth-child(2) {
+    visibility: hidden;
+}
+
+.seventh {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seventh div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.seventh div:nth-child(1) {
+    opacity: 0.1;
+}
+
+.seventh div:nth-child(2) {
+    opacity: 0.3;
+}
+
+.seventh div:nth-child(3) {
+    opacity: 0.5;
+}
+
+.seventh div:nth-child(4) {
+    opacity: 0.7;
+}
+
+.seventh div:nth-child(5) {
+    opacity: 1;
+}
