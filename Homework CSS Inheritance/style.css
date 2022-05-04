@@ -1,0 +1,43 @@
+#first {
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#second {
+    width: 200px;
+    height: inherit;
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+}
+
+#div1 {
+    color: red;
+    height: 100px;
+}
+
+#div1Child {
+    height: inherit;
+}
+
+
+.wrapper1,
+.wrapper2 {
+    color: red;
+    padding: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+.wrapper2 button {
+    color: inherit;
+    padding: inherit;
+    box-shadow: inherit;
+    border-radius: inherit;
+    border: none;
+}
