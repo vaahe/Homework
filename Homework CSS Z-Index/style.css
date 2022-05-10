@@ -1,0 +1,56 @@
+body div {
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+}
+
+.control-1 {
+    background-color: red;
+    position: relative;
+}
+
+.control-2 {
+    background-color: green;
+    position: absolute;
+    left: 120px;
+    top: 80px;
+}
+
+.control-3 {
+    background-color: blue;
+    position: absolute;
+    left: 240px;
+    top: 160px;
+}
+
+.control-4 {
+    background-color: pink;
+    position: absolute;
+    left: 360px;
+    top: 240px;
+    
+}
+
+.control-5 {
+    background-color: crimson;
+    position: absolute;
+    left: 480px;
+    top: 320px;
+}
+
+.control-6 {
+    background-color: blueviolet;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    z-index: 6;
+}
+
+.control-7 {
+    background-color: orange;
+    position: absolute;
+    left: 720px;
+    top: 480px;
+}
