@@ -1,0 +1,36 @@
+$color-dark: #222;
+$color-body: #ccc;
+$color-background: white;
+
+.sidebar {
+  width: 5%;
+  position: sticky;
+  top: 0%;
+
+  img {
+      width: 64px;
+      height: 64px;
+      transition: .8s ease;
+  }
+
+  img:hover {
+      transform: scale(1.1);
+  }
+
+  flex-direction: column;
+  display: flex;
+  margin-right: 10px;
+}
+
+
+.main,
+.sidebar {
+  background-color: $color-background;
+  color: $color-dark;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

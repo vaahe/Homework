@@ -1,0 +1,45 @@
+$bg-color-nav: rgb(241, 234, 234);
+
+.bar {
+    background-color: $bg-color-nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: sans-serif;
+
+    img {
+        width: 72px;
+        height: 72px;
+    }
+
+    .items {
+        width: 30%;
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                list-style-type: none;
+                padding: 20px;
+                transition: .8s ease;
+                border-radius: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+            }
+
+            li:hover {
+                background-color: rgb(0, 110, 255);
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
