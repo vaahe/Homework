@@ -39,8 +39,6 @@ header nav ul {
 header nav ul li {
   list-style-type: none;
   padding: 0.8em 1.5em;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
   cursor: pointer;
 }
 
@@ -55,11 +53,6 @@ header nav ul li a {
 }
 
 header nav ul li:hover {
-  background-color: #b8b8b8;
-  border-radius: 1px;
-}
-
-header nav ul li:nth-child(6) {
   border: 2px solid #475F45;
 }
 
@@ -70,10 +63,6 @@ header nav ul li:nth-child(6) {
   font-size: 16px;
   line-height: 150%;
   color: #343D33;
-}
-
-.wrapper {
-  padding: 0.8em 6em 0;
 }
 
 .buttons {
@@ -458,5 +447,37 @@ footer .bottom {
   line-height: 6em;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+  header, section {
+    padding: 0.5em 0.8em;
+  }
+  header > ul, li, a {
+    display: none;
+    padding: 0.1em 3em 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header, section {
+    padding: 0.5em 0.8em;
+  }
+  header > ul, li, a {
+    display: none;
+    padding: 0.1em 3em 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header, section {
+    padding: 0.8em 6em 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header, section {
+    padding: 0.8em 6em 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

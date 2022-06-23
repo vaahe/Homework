@@ -28,7 +28,6 @@ header {
             li {
                 list-style-type: none;
                 padding: 0.8em 1.5em;
-                transition: 1s ease;
                 cursor: pointer;
 
                 a {
@@ -41,13 +40,9 @@ header {
                     outline: none;
                 }
 
-                &:hover {
-                    background-color: #b8b8b8;
-                    border-radius: 1px;
-                }
             }
 
-            li:nth-child(6) {
+            li:hover {
                 border: 2px solid #475F45;
 
             }
@@ -63,10 +58,6 @@ header {
     line-height: 150%;
     color: #343D33;
 
-}
-
-.wrapper {
-    padding: 0.8em 6em 0;
 }
 
 .buttons {
@@ -422,5 +413,42 @@ footer {
         line-height: 6em;
         text-align: center;
         color: #FFFFFF;
+    }
+}
+
+//smartphone
+@media screen and (max-width: 600px) {
+    header, section {
+        padding: 0.5em 0.8em;
+        }
+        
+    header > ul,li,a {
+        display: none;
+        padding: 0.1em 3em 0;
+    }
+}
+
+//tablet
+@media screen and (min-width: 768px) {
+    header, section {
+        padding: 0.5em 0.8em;
+        }
+
+    header > ul,li,a {
+        display: none;
+        padding: 0.1em 3em 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header, section {
+        padding: 0.8em 6em 0;
+    }
+}
+
+//desktop
+@media screen and (min-width: 1200px) {
+    header, section {
+        padding: 0.8em 6em 0;
     }
 }
